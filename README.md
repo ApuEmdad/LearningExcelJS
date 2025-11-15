@@ -59,7 +59,7 @@ colScore.eachCell((cell, rowNumber) => {
 **Object-style rows**
 
 ```js
-sheet.addRow({ id: 1, name: 'Apu', score: 90 });
+sheet.addRow({ id: 1, name: 'emdadul', score: 90 });
 sheet.addRow({ id: 2, name: 'Haque', score: 85 });
 ```
 
@@ -288,8 +288,8 @@ This completes the **full set of commonly used ExcelJS methods**: writing, readi
 
 | Method / Property     | Description               | Example                                                |
 | --------------------- | ------------------------- | ------------------------------------------------------ |
-| `sheet.addRow(obj)`   | Add object-style row      | `sheet.addRow({ id: 1, name: 'Apu' })`                 |
-| `sheet.addRow(array)` | Add array-style row       | `sheet.addRow([1, 'Apu'])`                             |
+| `sheet.addRow(obj)`   | Add object-style row      | `sheet.addRow({ id: 1, name: 'emdad' })`                 |
+| `sheet.addRow(array)` | Add array-style row       | `sheet.addRow([1, 'emdad'])`                             |
 | `sheet.getRow(n)`     | Access a row              | `const row = sheet.getRow(1)`                          |
 | `row.values`          | Get/set row values        | `row.values = [1, 'Name']`                             |
 | `row.getCell(n)`      | Get cell by column number | `row.getCell(2)`                                       |
@@ -358,11 +358,3 @@ sheet.getCell('D2').dataValidation = {
 
 ---
 
-
-
-
-
-
-
-
-****
